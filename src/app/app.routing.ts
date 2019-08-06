@@ -9,7 +9,7 @@ const appRoutes: Routes = [
   // เช่น
   // { path: 'pages', component: PageListComponent },
   // เพื่อบอกว่าเมื่อไหร่ที่เข้ามาจาก /pages ให้วิ่งไปใช้บริการคอมโพแนนท์ชื่อ PageListComponent
-  { path: '', component: AppComponent },
+  { path: '', component: ReplyFallbackComponent },
   // เมื่อเข้าถึง /replyfallback
   // ให้นำ ReplyFallbackComponent ไปแสดงผลใน RouterOutlet ของ AppComponent
   { path: 'replyfallback', component: ReplyFallbackComponent },
