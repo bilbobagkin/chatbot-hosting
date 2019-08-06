@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 4rem;
+}
